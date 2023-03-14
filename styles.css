@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(https://assets.hongkiat.com/uploads/beautiful-minimalist-desktop-wallpapers/4k/original/02.jpg?3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    line-height: 1.5;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 650px;
+    padding: 20px;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+form {
+    background-color: rgba(0, 255, 179, 0.2);
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    max-width: 470px;
+}
+
+/* Textarea Here */
+textarea {
+    min-height: 100px;
+    max-width: 470px;
+}
+
+/* Submit Button Here */
+
+button {
+    margin-top: 20px;
+    max-width: 500px;
+    display: block;
+    background-color: rgb(39, 168, 147);
+    border-radius: 10px;
+    padding: 20px 10px 10px 15px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    height: 3em;
+    font-size: 20px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>freeCodeCamp Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-container">
+        <h1 id="title">MelodicTent Survey Form</h1>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </div>
+      <div class="form-container">
+        <form id="survey-form">
+          <!-- User name input here -->
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+              class="input"
+            />
+          </div>
+
+          <!-- Email input here -->
+          <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              class="input"
+              required
+            />
+          </div>
+
+          <!-- Age here -->
+          <div class="form-group">
+            <label for="number" id="number-label">Age (optional)</label>
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="18"
+              max="100"
+              placeholder="Age"
+              class="input"
+            />
+          </div>
+
+          <!-- Dropdown here -->
+          <div class="form-group">
+            <label for="dropdown"
+              >Which option best describes your current role?</label
+            >
+            <select id="dropdown" name="dropdown" class="input">
+              <option value="" disabled selected>Select current role</option>
+              <option value="social-media">House Producer</option>
+              <option value="search-engine">DJ</option>
+              <option value="friend">Artist</option>
+              <option value="other">Music Fan</option>
+            </select>
+          </div>
+
+          <!-- Radio buttons here -->
+          <div class="form-group">
+            <label>
+              How satisfied are you with the current house music scene in your
+              area?</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="description"
+                value="satisfied"
+              />Satisfied</label
+            >
+            <label
+              ><input type="radio" name="description" value="not-sure" />Not
+              Sure</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="description"
+                value="not-satisfied"
+              />Not Satisfied</label
+            >
+          </div>
+
+          <!-- Checkbox here -->
+          <div class="form-group">
+            <label>
+              How do you discover new house music? (Check all that apply)</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="online" />Online music
+              platforms</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="social" />Social
+              media</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="blogs" />Music blogs
+              and websites</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="radio" />Radio</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="festivals" />Live
+              music venues</label
+            >
+            <label
+              ><input type="checkbox" name="enjoy" value="stores" />Record
+              stores</label
+            >
+          </div>
+
+          <!-- Textarea here -->
+          <div class="form-group">
+            <label for="comments">
+              Any additional comments or suggestions for Melodic House
+              Tent?</label
+            >
+            <textarea
+              id="comments"
+              name="comments"
+              placeholder="Enter your comments here.."
+              class="input"
+            ></textarea>
+          </div>
+
+          <!-- Submit button here -->
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
